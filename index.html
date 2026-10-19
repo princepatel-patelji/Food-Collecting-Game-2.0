@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CHAI CATCHER: DESI DASH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay"></div>
+    </div>
+    
+    <!-- Inline SVG Logo -->
+    <svg width="0" height="0" style="position:absolute">
+        <symbol id="chai-logo" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" fill="#FFD166" stroke="#8B4513" stroke-width="3"/>
+            <rect x="25" y="35" width="50" height="40" rx="10" fill="#FFF4D6" stroke="#8B4513" stroke-width="3"/>
+            <rect x="25" y="35" width="50" height="20" rx="10" fill="#8B4513"/>
+            <path d="M25 55 Q50 65 75 55" stroke="#8B4513" stroke-width="3" fill="none"/>
+            <circle cx="35" cy="45" r="3" fill="#24143D"/>
+            <circle cx="65" cy="45" r="3" fill="#24143D"/>
+            <path d="M40 55 Q50 60 60 55" stroke="#24143D" stroke-width="2" fill="none"/>
+            <path d="M50 20 Q50 10 60 15" stroke="#FF9F1C" stroke-width="2" fill="none"/>
+            <path d="M50 20 Q50 10 40 15" stroke="#FF9F1C" stroke-width="2" fill="none"/>
+        </symbol>
+    </svg>
+
+    <script src="js/settings.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/objects.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

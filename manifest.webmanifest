@@ -1,0 +1,21 @@
+{
+  "name": "CHAI CATCHER: DESI DASH",
+  "short_name": "Chai Catcher",
+  "description": "A fun anime-style Indian street-food catching game by Prince Patel.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#24143D",
+  "theme_color": "#FF9F1C",
+  "icons": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
