@@ -2,7 +2,8 @@
 window.addEventListener('load', () => {
   console.log('Chai Catcher: Desi Dash - Initializing...');
   
-  const canvas = document.getElementById('gameCanvas');
+window.canvas = document.getElementById('gameCanvas');
+const canvas = window.canvas;
   
   // Initialize game
   Game.init(canvas);
